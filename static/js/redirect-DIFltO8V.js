@@ -1,0 +1,1 @@
+import{e as c,u as s,k as p,c as u,o as i}from"./index-54h-ADcz.js";import"./monaco-editor-mVv4Ass3.js";const h=c({name:"Redirect",__name:"redirect",setup(m){const{currentRoute:r,replace:t}=s(),{params:a,query:o}=p(r),{path:e}=a,n=Array.isArray(e)?e.join("/"):e;return t({path:"/"+n,query:o}),(_,d)=>(i(),u("div"))}});export{h as default};
